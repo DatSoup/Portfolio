@@ -438,7 +438,7 @@ export default function Home() {
             This page and the{" "}
             <a href={process.env.NEXT_PUBLIC_VERCEL_URL}>
               {process.env.NEXT_PUBLIC_VERCEL_URL.replace(
-                /http|https/,
+                /https|http/,
                 ""
               ).replace("://", "")}
             </a>{" "}
