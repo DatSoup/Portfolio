@@ -1,0 +1,12 @@
+* {
+	background-color: var(--color-w1) !important;
+}
+body {
+	border: none;
+}
+section {
+	break-inside: avoid;
+}
+hr {
+	break-before: avoid;
+}

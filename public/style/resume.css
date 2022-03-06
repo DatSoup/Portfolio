@@ -1,0 +1,87 @@
+/* header and contact info */
+header {
+	margin: 1em;
+	display: flex;
+	gap: 1em;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.statement {
+	margin-left: 3em;
+	margin-bottom: 0;
+}
+#contact {
+	border-width: 1px;
+	border-bottom-width: 0;
+	border-style: solid;
+	border-color: var(--color-borders);
+	border-radius: 2px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/*align-content: stretch;*/
+}
+.contact-item {
+	padding: 0.2rem 0.5rem;
+
+	display: flex;
+	justify-content: space-between;
+	gap: 1rem;
+
+	background-color: var(--color-w2);
+	border-bottom: 1px solid var(--color-borders);
+}
+.contact-item i {
+	align-self: flex-start;
+}
+.contact-item > p {
+	align-self: flex-end;
+}
+.contact-info {
+	margin: 0;
+	text-align: right;
+}
+#skills {
+	padding: 0;
+}
+/* main content container */
+#content {
+	display: flex;
+	/*gap: 1em;*/
+	justify-content: stretch;
+	align-content: stretch;
+}
+#content main, #sidebar {
+	padding: 0 1rem;
+	background-color: var(--color-w1);
+}
+#content aside ul {
+	margin-left: -1em;
+}
+#content main, #intro {
+	flex-basis: var(--phi);
+}
+#sidebar {
+	flex-basis: 1;
+}
+.job-header h3 {
+	text-decoration: underline;
+}
+summary {
+	white-space: nowrap;
+}
+summary p.job-history  {
+	margin: 0.25em 0 0 calc(1em - 4px);
+}
+ul.job-history {
+	margin-top: 0;
+}
+.job-history li {
+	margin-left: -1em;
+	list-style-type: none;
+	list-style-image: none;
+}
+.job-history li.callout {
+	margin-left: calc(-1.5em - 2px);
+}
