@@ -16,11 +16,11 @@ export default function Home() {
         <div id="intro">
           <h1>Christopher Campbell</h1>
           <p className="statement" aria-label="Positioning Statement">
-            United States Navy veteran.
+            United States Navy veteran. Studying computer
             <br />
-            Computer science students at the University of North Dakota
+            science at the University of North Dakota.
             <br />
-            Self-motivated and reliable
+            Self-motivated, reliable, and punctual
           </p>
         </div>
 
@@ -162,8 +162,8 @@ export default function Home() {
 
               <ul className="job-description">
                 <li>
-                  Recived my Minnesota 1st class {`'A'`} boilers license
-                  allowing me to operate high and low pressure boilers with
+                  Received my Minnesota 1st class {`'A'`} boilers license
+                  allowing me to operate high- and low-pressure boilers with
                   associated engines and turbines of any horsepower. In addition
                   I can personally be in charge of boilers up to 500 horsepower.
                 </li>
@@ -173,7 +173,7 @@ export default function Home() {
                 <li>
                   This job operates off of a job board. When a company is in
                   need of a relief operator the reach to Sprung Services. Sprung
-                  then lists the jobs for any avaialble operator to pick up.
+                  then lists the jobs for any available operator to pick up.
                 </li>
 
                 <li>
@@ -185,9 +185,9 @@ export default function Home() {
 
                 <li>
                   This job also includes operational and preventative
-                  maintenance items including, but not limited to, perfoming
+                  maintenance items including, but not limited to, performing
                   water samples to test plant chemistry, blowing down steam
-                  traps, perfoming lube oil inspections, ensuring proper
+                  traps, performing lube oil inspections, ensuring proper
                   operation of outdoor components, and checking/validating
                   safety equipment.
                 </li>
@@ -214,17 +214,22 @@ export default function Home() {
 
               <ul className="job-description">
                 <li>
-                  Seasonal, part time job which involves shipping and recieving
-                  goods to include washers, dryers, refigerators, television,
+                  Seasonal, part time job which involves shipping and receiving
+                  goods to include washers, dryers, refrigerators, television,
                   computers, laptops, monitors, and a plethora of other tech
                   products.
                 </li>
 
                 <li>
-                  In addition product flow, I also worked customer service when
-                  need arose. Requiring the prioritization of empathy in helping
-                  customers manage whatever needs they may have while shopping
-                  with us at Best Buy.
+                  In addition to product flow, I also worked customer service
+                  when need arose. Requiring the prioritization of empathy in
+                  helping customers manage whatever needs they may have while
+                  shopping with us at Best Buy.
+                </li>
+                <li>
+                  Also obtained experience working at the Geek Squad precinct.
+                  At the precinct, we would assist customers in troubleshooting
+                  and repair of desktops, laptops, TVs, phones, and tablets.
                 </li>
               </ul>
             </details>
@@ -251,7 +256,7 @@ export default function Home() {
                   <em className="product">Professional Summary</em>: I served
                   for six years as a Nuclear Machinist Mate in the United States
                   Navy, maintaining reactor room facilities and equipment aboard
-                  the aircraft carrier USS Dwight D. Eisenhower. Recived a
+                  the aircraft carrier USS Dwight D. Eisenhower. Received a
                   secret security clearance and filled positions as operator and
                   maintenance technician, as well as qualifying chief reactor
                   watch, a senior supervisory watch station in the reactor room.
@@ -340,7 +345,7 @@ export default function Home() {
               <h3 id="school-header-century-college">Centruy College</h3>
               <ul className="degrees">
                 <li>
-                  <strong>A.A</strong>, Dean{`'`}s list (2021)
+                  <strong>A.A Degree</strong>, Dean{`'`}s list (2021)
                 </li>
               </ul>
             </div>
@@ -375,7 +380,7 @@ export default function Home() {
               <li>Experienced with python and C++</li>
 
               <li>
-                Currently learning HTML, Java, CSS, and React (all utlized in
+                Currently learning HTML, Java, CSS, and React (all utilized in
                 the production of this portfolio)
               </li>
 
@@ -385,25 +390,25 @@ export default function Home() {
               </li>
 
               <li className="callout">
-                Experienced in anaylzing and responding to integrated plant
-                operation on nuclear and non nuclear steam/electric plants.
+                Experienced in analyzing and responding to integrated plant
+                operation on nuclear and non-nuclear steam/electric plants.
               </li>
 
               <li>
-                As a qualified personal qulification standard (PQS) card signer
+                As a qualified personal qualification standard (PQS) card signer
                 onboard the USS Dwight D. Eisenhower I am also well versed in
-                teaching and verify individuals levels of knowledge on plant
+                teaching and verify individual's levels of knowledge on plant
                 systems and components.
               </li>
 
               <li>
                 Experienced in the proper handling of both classified and
-                hazerdous materials (HAZMAT).
+                hazardous materials (HAZMAT).
               </li>
 
               <li>
-                Experienced in shipboard firefighiting to including proper
-                utilization of SCBAs, FFEs (Firefighting ensambles), desmoking
+                Experienced in shipboard firefighting to including proper
+                utilization of SCBAs, FFEs (Firefighting ensembles), de-smoking
                 equipment, and firefighting agents (class A-D).
               </li>
 
@@ -421,8 +426,10 @@ export default function Home() {
           <h2 id="about-header">About This Resume</h2>
           <Image src="/me.jpg" width="500" height="500"></Image>
           <p>
-            Shout out to Elizabeth Jorgensen who laid the framwork for this
-            porfolio. This is a next.js project. A next.js webserver running on
+            Shout out to Elizabeth Jorgensen who laid the initial framework for
+            this portfolio. In addition, a special thanks a11ywatch in helping
+            me with navigation of some of the more technical hang ups with this
+            portfolio. This is a next.js project. A next.js webserver running on
             Vercel generates this resume. It is very light on client-side JS.
           </p>
           <p>This is a portfolio project.</p>
@@ -431,8 +438,7 @@ export default function Home() {
             <a href="#contact">
               contact me via the means above with any inquiries
             </a>{" "}
-            or for access to source code. Because this resume reveals personally
-            identifiable information, it{`'`}s public on GitHub.
+            or for access to source code. This resume is public on GitHub.
           </p>
           <p>
             This page and the{" "}
