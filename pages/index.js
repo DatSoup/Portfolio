@@ -397,8 +397,8 @@ export default function Home() {
               <li>
                 As a qualified personal qualification standard (PQS) card signer
                 onboard the USS Dwight D. Eisenhower I am also well versed in
-                teaching and verify individual's levels of knowledge on plant
-                systems and components.
+                teaching and verify individual{`'`}s levels of knowledge on
+                plant systems and components.
               </li>
 
               <li>
