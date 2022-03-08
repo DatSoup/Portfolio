@@ -4,7 +4,7 @@ export function AppHead() {
   return (
     <>
       <meta charset="UTF-8" />
-      <title>Resume - Chris Campbell</title>
+      <title>Portfolio - Chris Campbell</title>
       <link rel="stylesheet" href="/style/style.css" />
       <link rel="stylesheet" href="/style/resume.css" />
       <link rel="stylesheet" media="print" href="/style/print.css" />
