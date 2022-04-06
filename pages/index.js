@@ -16,9 +16,9 @@ export default function Home() {
         <div id="intro">
           <h1>Christopher Campbell</h1>
           <p className="statement" aria-label="Positioning Statement">
-            United States Navy veteran. Studying computer
+            United States Navy Veteran. Studying Computer
             <br />
-            science at the University of North Dakota.
+            Science at the University of North Dakota.
             <br />
             Self-motivated, reliable, and punctual
           </p>
@@ -424,21 +424,27 @@ export default function Home() {
         <hr />
         <article aria-labelledby="about-header" className={styles.articleAbout}>
           <h2 id="about-header">About This Resume</h2>
-          <Image src="/me.jpg" width="500" height="500"></Image>
+          <Image src="/Chris.jpg" width="500" height="700"></Image>
           <p>
             Shout out to Elizabeth Jorgensen who laid the initial framework for
             this portfolio. In addition, a special thanks a11ywatch in helping
             me with navigation of some of the more technical hang ups with this
             portfolio. This is a next.js project. A next.js webserver running on
-            Vercel generates this resume. It is very light on client-side JS.
+            Vercel generates this resume.
           </p>
-          <p>This is a portfolio project.</p>
           <p>
-            Please{" "}
-            <a href="#contact">
-              contact me via the means above with any inquiries
-            </a>{" "}
-            or for access to source code. This resume is public on GitHub.
+            This is a portfolio project and this resume is public on GitHub.
+          </p>
+          <p>
+            A quick bit about myself. I spent 6 years in naval nuclear power and
+            it was an honor to be able to serve my country and learn a valuable
+            trade at the same time. However, nuclear power was never something I
+            was passionate about. While studying mechanical engineering at the
+            University of North Dakota, I was reminded of my love for computers
+            and programming during a computer application in engineering course
+            in which we learned how to code using C++. Although this class was
+            not simple, it reawakened a passion within myself. I am now excited
+            and engaged on this new life path of computer science.
           </p>
           <p>
             This page and the{" "}
