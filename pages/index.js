@@ -145,13 +145,13 @@ export default function Home() {
                   Essentia Health
                 </h3>
                 , Duluth, MN<strong> — Boiler Operator</strong>
-                <p className="job-history timeline">June 2022–Present</p>
+                <p className="job-history timeline">June 2022{`-`}Present</p>
               </summary>
 
               <ul className="job-description">
                 <li>
                   My primary role is to maintain and operate high presssure
-                  boilers located at St. Mary's hospital, 1st street clinic
+                  boilers located at St. Mary{`'`}s hospital, 1st street clinic
                   building, and the new Vision Northland hopital in Duluth
                   Minnesota. This includes associated sub systems such as steam,
                   feed, condensate, makeup water, and donestic hot/cold water.
@@ -165,10 +165,10 @@ export default function Home() {
                 <li>
                   I am also responsible for daily water testing of all eight
                   high pressure boilers on these Duluth campuses. These water
-                  tests include total dissolved solids (TDS), P and M
-                  alkalinity, polymer, and sulfites. Ensuring boiler chemistry
-                  is properly balanced is of utmost importance to prevent any
-                  sort of damage to the water-tube side of the boiler.
+                  tests include total dissolved solids, P and M alkalinity,
+                  polymer, and sulfites. Ensuring boiler chemistry is properly
+                  balanced is of utmost importance to prevent any sort of damage
+                  to the water-tube side of the boiler.
                   <br />
                   <br />
                 </li>
@@ -190,8 +190,8 @@ export default function Home() {
                 </li>
                 <li>
                   In additon to these normal dutys and responsibilites, I also
-                  have access to to the alarms and programming for the
-                  hospital's building automation system. Distech is the back end
+                  have access to to the alarms and programming for the hospital
+                  {`'`}s building automation system. Distech is the back end
                   program utilized for programming all the HVAC, lighting, and
                   alarm systems for the hospital. Niagara is the front end
                   program, which is primarily what I interface with, for
@@ -221,13 +221,13 @@ export default function Home() {
                   className="job-history timeline"
                   prev="December 2020–Present"
                 >
-                  December 2020–Present
+                  December 2020{`-`}Present
                 </p>
               </summary>
 
               <ul className="job-history">
                 <li>
-                  <span className="dates">December 2020–Present</span>:{" "}
+                  <span className="dates">December 2020{`-`}Present</span>:{" "}
                   <strong>Relief Boiler Operator</strong>
                 </li>
               </ul>
@@ -289,7 +289,9 @@ export default function Home() {
                   Best Buy
                 </h3>
                 , Grand Forks, ND<strong> — Product Flow</strong>
-                <p className="job-history timeline">October 2021–March 2022</p>
+                <p className="job-history timeline">
+                  October 2021{`-`}March 2022
+                </p>
               </summary>
 
               <ul className="job-description">
@@ -336,7 +338,7 @@ export default function Home() {
                   United States Navy
                 </h3>
                 , Norfolk, VA<strong> — Nuclear Machinist Mate</strong>
-                <p className="job-history timeline">Jan 2014–Jan 2020</p>
+                <p className="job-history timeline">Jan 2014{`-`}Jan 2020</p>
               </summary>
 
               <ul className="job-description">
@@ -384,7 +386,7 @@ export default function Home() {
                   current shipboard rules and regulations. As well, we were
                   responsible for verifying all on ship's company maintenance
                   for reactor mechanical division to ensure that
-                  workstations/controls weren’t overlapping between reactor
+                  workstations/controls weren{`'`}t overlapping between reactor
                   mechanical division and shipyard contractors.
                   <br />
                   <br />
@@ -407,7 +409,7 @@ export default function Home() {
                 </h3>
                 , St. Paul, MN<strong> — Food Service Assistant</strong>
                 <p className="job-history timeline">
-                  Full Time–June 2012-June 2014
+                  Full Time{`-`}June 2012-June 2014
                 </p>
               </summary>
 
