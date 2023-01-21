@@ -93,9 +93,9 @@ export default function Home() {
               className="contact-info"
               aria-describedby="contact-label-address"
             >
-              <span>800 n 3rd st.</span>
+              <span>2120 London rd. APT 205</span>
               <br />
-              <span>Grand Forks, ND 58203</span>
+              <span>Duluth, MN 55812</span>
             </div>
           </div>
 
@@ -134,6 +134,78 @@ export default function Home() {
             <details
               className="job"
               role="listitem"
+              aria-labelledby="job-header-Essentia-Health"
+              open=""
+            >
+              <summary
+                className="job-header"
+                aria-labelledby="job-header-Essentia-Health"
+              >
+                <h3 className="inline" id="jjob-header-Essentia-Health">
+                  Essentia Health
+                </h3>
+                , Duluth, MN<strong> — Boiler Operator</strong>
+                <p className="job-history timeline">June 2022–Present</p>
+              </summary>
+
+              <ul className="job-description">
+                <li>
+                  My primary role is to maintain and operate high presssure
+                  boilers located at St. Mary's hospital, 1st street clinic
+                  building, and the new Vision Northland hopital in Duluth
+                  Minnesota. This includes associated sub systems such as steam,
+                  feed, condensate, makeup water, and donestic hot/cold water.
+                  Additionally, I am responsible for maintenance and operation
+                  of the low pressure boilers at four seperate Essentia Health
+                  buildings in the Duluth/Hermantown area.
+                  <br />
+                  <br />
+                </li>
+
+                <li>
+                  I am also responsible for daily water testing of all eight
+                  high pressure boilers on these Duluth campuses. These water
+                  tests include total dissolved solids (TDS), P and M
+                  alkalinity, polymer, and sulfites. Ensuring boiler chemistry
+                  is properly balanced is of utmost importance to prevent any
+                  sort of damage to the water-tube side of the boiler.
+                  <br />
+                  <br />
+                </li>
+
+                <li>
+                  Aside from the normal dutys and responsibilites as a boiler
+                  operator my team is also responsible for making signs at all
+                  Essentia Campuses. These campuses span over 30 cities between
+                  Minnesota and North Dakota. As a sign makes, we interface with
+                  Gravotech software to create the designs for the signs. We
+                  then send the data from the desktop used for development to a
+                  rotary sign machine. The sign machine must be initially
+                  calibrated on an x and y axis. Then, prior to each cut we must
+                  calibrate the z axis. We use differnt acrylic, aluminum, and
+                  platic sheets. Following engraving, all signs must then be
+                  painted and assembled prior to shipping.
+                  <br />
+                  <br />
+                </li>
+                <li>
+                  In additon to these normal dutys and responsibilites, I also
+                  have access to to the alarms and programming for the
+                  hospital's building automation system. Distech is the back end
+                  program utilized for programming all the HVAC, lighting, and
+                  alarm systems for the hospital. Niagara is the front end
+                  program, which is primarily what I interface with, for
+                  monitoring of alarms and remote operation of air handlers,
+                  pumps, and solenoid valves throughout the hospitals.
+                  <br />
+                  <br />
+                </li>
+              </ul>
+            </details>
+            <hr />
+            <details
+              className="job"
+              role="listitem"
               aria-labelledby="job-header-Sprung-Services"
               open=""
             >
@@ -166,6 +238,8 @@ export default function Home() {
                   allowing me to operate high- and low-pressure boilers with
                   associated engines and turbines of any horsepower. In addition
                   I can personally be in charge of boilers up to 500 horsepower.
+                  <br />
+                  <br />
                 </li>
 
                 <li className="callout"></li>
@@ -174,6 +248,8 @@ export default function Home() {
                   This job operates off of a job board. When a company is in
                   need of a relief operator the reach to Sprung Services. Sprung
                   then lists the jobs for any available operator to pick up.
+                  <br />
+                  <br />
                 </li>
 
                 <li>
@@ -181,6 +257,8 @@ export default function Home() {
                   responsibility is to operate and safeguard high and low
                   pressure boilers unique to each job site with their associated
                   turbine, feed, steam, chemical, and condensate systems.
+                  <br />
+                  <br />
                 </li>
 
                 <li>
@@ -190,6 +268,8 @@ export default function Home() {
                   traps, performing lube oil inspections, ensuring proper
                   operation of outdoor components, and checking/validating
                   safety equipment.
+                  <br />
+                  <br />
                 </li>
               </ul>
             </details>
@@ -214,10 +294,14 @@ export default function Home() {
 
               <ul className="job-description">
                 <li>
-                  Seasonal, part time job which involves shipping and receiving
-                  goods to include washers, dryers, refrigerators, television,
+                  Part time job I worked while attendng school in person at UND.
+                  The job responsibilies included shipping and receiving goods
+                  to include washers, dryers, refrigerators, television,
                   computers, laptops, monitors, and a plethora of other tech
-                  products.
+                  products. As well as ensuring the sales floor was porperly
+                  stocked at all times.
+                  <br />
+                  <br />
                 </li>
 
                 <li>
@@ -225,11 +309,15 @@ export default function Home() {
                   when need arose. Requiring the prioritization of empathy in
                   helping customers manage whatever needs they may have while
                   shopping with us at Best Buy.
+                  <br />
+                  <br />
                 </li>
                 <li>
                   Also obtained experience working at the Geek Squad precinct.
                   At the precinct, we would assist customers in troubleshooting
                   and repair of desktops, laptops, TVs, phones, and tablets.
+                  <br />
+                  <br />
                 </li>
               </ul>
             </details>
@@ -255,21 +343,25 @@ export default function Home() {
                 <li>
                   <em className="product">Professional Summary</em>: I served
                   for six years as a Nuclear Machinist Mate in the United States
-                  Navy, maintaining reactor room facilities and equipment aboard
-                  the aircraft carrier USS Dwight D. Eisenhower. Received a
-                  secret security clearance and filled positions as operator and
-                  maintenance technician, as well as qualifying chief reactor
-                  watch, a senior supervisory watch station in the reactor room.
-                  Skilled with the operation and maintenance of mechanical
-                  systems to include primary coolant systems, reactor safeguard
-                  systems, steam plant systems, hydraulic plant systems, high
-                  and low-pressure air, sea and fresh water, and
+                  Navy, maintaining reactor room facilities and equipment
+                  onboard the aircraft carrier USS Dwight D. Eisenhower. I
+                  received a secret security clearance and filled positions as
+                  operator and maintenance technician. While onboard I qualified
+                  chief reactor watch, a senior supervisory watch station in the
+                  reactor room. Skilled with the operation and maintenance of
+                  mechanical systems to include primary coolant systems, reactor
+                  safeguard systems, steam plant systems, hydraulic plant
+                  systems, high and low-pressure air, sea and fresh water, and
                   piping/electrical system diagrams.
+                  <br />
+                  <br />
                 </li>
 
                 <li>
                   Qualified Chief Reactor Watch, QA, Craftsman, and Damage
                   Control team leader.
+                  <br />
+                  <br />
                 </li>
 
                 <li>
@@ -279,8 +371,10 @@ export default function Home() {
                   greasing, and reassembly of a 4160-volt turbine attached lube
                   oil pump. complete disassembly, cleaning, and reassembly of
                   our plants Delaval lube oil purifier. As well as participating
-                  in semi-annually in reactor fill testing, ensuring proper
+                  in semi-annual reactor fill testing, ensuring proper
                   operations of the reactor safeguard system.
+                  <br />
+                  <br />
                 </li>
 
                 <li>
@@ -288,10 +382,12 @@ export default function Home() {
                   team. Our responsibility was to verify all shipyard
                   maintenance documents and ensure their accuracy with our
                   current shipboard rules and regulations. As well, we were
-                  responsible for verifying all on ship maintenance for reactor
-                  mechanical division to ensure that workstations/controls
-                  weren’t overlapping between reactor mechanical division and
-                  shipyard contractors.
+                  responsible for verifying all on ship's company maintenance
+                  for reactor mechanical division to ensure that
+                  workstations/controls weren’t overlapping between reactor
+                  mechanical division and shipyard contractors.
+                  <br />
+                  <br />
                 </li>
               </ul>
             </details>
@@ -315,7 +411,22 @@ export default function Home() {
                 </p>
               </summary>
 
-              <ul className="job-description"></ul>
+              <ul className="job-description">
+                <li>
+                  This was my first full time job prior to joining the Navy. My
+                  primary responsibility was to serve food in a kindly fassion
+                  to the elderly who lived in the retirement home.
+                  <br />
+                  <br />
+                </li>
+
+                <li>
+                  In addition, I was responsible for cleaning all dishes,
+                  maintaining general cleanliness of my workstation, and weekly
+                  deep cleaning of the kitchen and cooking exhaust baffles.
+                  <br />
+                </li>
+              </ul>
             </details>
             <hr />
           </section>
@@ -332,8 +443,13 @@ export default function Home() {
               </h3>
               <ul className="degrees">
                 <li>
-                  <strong>(in progress)</strong>, Working on my B.S. degree in
-                  computer science (2021-present)
+                  <strong>(in progress)</strong>, Working on my B.A. degree in
+                  General Studies with a minor in computer science (Graduating
+                  in May of 2023).{" "}
+                  <strong>
+                    (As a prior Mechanical Engineering major, the majority of my
+                    classes have been in math and science)
+                  </strong>
                 </li>
               </ul>
             </div>
@@ -377,45 +493,64 @@ export default function Home() {
           <section aria-labelledby="skills-header">
             <h2 id="skills-header">Skills</h2>
             <ul id="skills">
-              <li>Experienced with python and C++</li>
+              <li className="callout">
+                Primary software language experience thus far has been in
+                Python.
+                <br />
+                <br />
+              </li>
 
               <li>
                 Currently learning HTML, Java, CSS, and React (all utilized in
-                the production of this portfolio)
+                the production of this portfolio). With an introduction to
+                computer science with C++.
+                <br />
+                <br />
               </li>
 
               <li>
                 Experienced in troubleshooting and repair of steam
                 generators/boilers and their associated sub systems.
+                <br />
+                <br />
               </li>
 
-              <li className="callout">
+              <li>
                 Experienced in analyzing and responding to integrated plant
                 operation on nuclear and non-nuclear steam/electric plants.
+                <br />
+                <br />
               </li>
 
               <li>
                 As a qualified personal qualification standard (PQS) card signer
-                onboard the USS Dwight D. Eisenhower I am also well versed in
+                onboard the USS Dwight D. Eisenhower, I am also well versed in
                 teaching and verify individual{`'`}s levels of knowledge on
                 plant systems and components.
+                <br />
+                <br />
               </li>
 
               <li>
-                Experienced in the proper handling of both classified and
-                hazardous materials (HAZMAT).
+                Experienced in the proper handling of confidential documents.
+                <br />
+                <br />
               </li>
 
               <li>
-                Experienced in shipboard firefighting to including proper
-                utilization of SCBAs, FFEs (Firefighting ensembles), de-smoking
-                equipment, and firefighting agents (class A-D).
+                Experienced in firefighting to including proper utilization of
+                SCBAs, FFEs (Firefighting ensembles), de-smoking equipment, and
+                firefighting agents (class A-D).
+                <br />
+                <br />
               </li>
 
-              <li>
+              <li className="callout">
                 Experienced in navigating high stress and high pressure
                 situations stemming from experience in responding to real time
                 reactor plant casualties.
+                <br />
+                <br />
               </li>
             </ul>
           </section>
@@ -427,10 +562,10 @@ export default function Home() {
           <Image src="/Chris.jpg" width="500" height="700"></Image>
           <p>
             Shout out to Elizabeth Jorgensen who laid the initial framework for
-            this portfolio. In addition, a special thanks a11ywatch in helping
-            me with navigation of some of the more technical hang ups with this
-            portfolio. This is a next.js project. A next.js webserver running on
-            Vercel generates this resume.
+            this portfolio. In addition, a special thanks to Jeffrey Mendez
+            (a11ywatch) in helping me develop/navigate some of the more
+            technical hang ups with this portfolio. This is a next.js project. A
+            next.js webserver running on Vercel generates this resume.
           </p>
           <p>
             This is a portfolio project and this resume is public on GitHub.
