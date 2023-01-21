@@ -151,7 +151,7 @@ export default function Home() {
               <ul className="job-description">
                 <li>
                   My primary role is to maintain and operate high presssure
-                  boilers located at St. Mary's hospital, 1st street clinic
+                  boilers located at St. Mary{`'`}s hospital, 1st street clinic
                   building, and the new Vision Northland hopital in Duluth
                   Minnesota. This includes associated sub systems such as steam,
                   feed, condensate, makeup water, and donestic hot/cold water.
@@ -190,8 +190,8 @@ export default function Home() {
                 </li>
                 <li>
                   In additon to these normal dutys and responsibilites, I also
-                  have access to to the alarms and programming for the
-                  hospital's building automation system. Distech is the back end
+                  have access to to the alarms and programming for the hospital
+                  {`'`}s building automation system. Distech is the back end
                   program utilized for programming all the HVAC, lighting, and
                   alarm systems for the hospital. Niagara is the front end
                   program, which is primarily what I interface with, for
@@ -382,9 +382,9 @@ export default function Home() {
                   team. Our responsibility was to verify all shipyard
                   maintenance documents and ensure their accuracy with our
                   current shipboard rules and regulations. As well, we were
-                  responsible for verifying all on ship's company maintenance
-                  for reactor mechanical division to ensure that
-                  workstations/controls weren’t overlapping between reactor
+                  responsible for verifying all on ship{`'`}s company
+                  maintenance for reactor mechanical division to ensure that
+                  workstations/controls weren{`’`}t overlapping between reactor
                   mechanical division and shipyard contractors.
                   <br />
                   <br />
@@ -576,10 +576,10 @@ export default function Home() {
             trade at the same time. However, nuclear power was never something I
             was passionate about. While studying mechanical engineering at the
             University of North Dakota, I was reminded of my love for computers
-            and programming during a computer application in engineering course
-            in which we learned how to code using C++. Although this class was
-            not simple, it reawakened a passion within myself. I am now excited
-            and engaged on this new life path of computer science.
+            and programming during a computer application in engineering course.
+            In this course we learned how to code using C++. Although this class
+            was not simple, it reawakened a passion within myself. I am now
+            excited and engaged on this new life path of computer science.
           </p>
           <p>
             This page and the{" "}
