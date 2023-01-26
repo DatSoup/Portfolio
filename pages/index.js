@@ -46,7 +46,7 @@ export default function Home() {
               aria-describedby="contact-label-email"
             >
               <a href="campbell.chrismn@gmail.com">
-                <strong>campbell.chrismn</strong>@gmail.com
+                <strong>campbell.chrismn@gmail.com</strong>
               </a>
             </div>
           </div>
@@ -93,9 +93,9 @@ export default function Home() {
               className="contact-info"
               aria-describedby="contact-label-address"
             >
-              <span>2120 London rd. APT 205</span>
+              <strong>2120 London Rd, Apt 205</strong>
               <br />
-              <span>Duluth, MN 55812</span>
+              <strong>Duluth, MN 55812</strong>
             </div>
           </div>
 
@@ -119,9 +119,9 @@ export default function Home() {
               className="contact-info"
               aria-describedby="contact-label-GitHub"
             >
-              <span>
+              <strong>
                 <a href="https://github.com/DatSoup/">DatSoup</a>
-              </span>
+              </strong>
             </div>
           </div>
         </aside>
@@ -129,7 +129,7 @@ export default function Home() {
       <div id="content">
         <main>
           <section role="list" aria-labelledby="experience-header">
-            <h2 id="experience-header">Experience</h2>
+            <h2 id="experience-header">Experience (click drop down arrows for further details)</h2>
 
             <details
               className="job"
@@ -138,7 +138,7 @@ export default function Home() {
               open=""
             >
               <summary
-                className="job-header"
+                className="job-header callout"
                 aria-labelledby="job-header-Essentia-Health"
               >
                 <h3 className="inline" id="jjob-header-Essentia-Health">
@@ -154,9 +154,9 @@ export default function Home() {
                   boilers located at St. Mary{`'`}s hospital, 1st street clinic
                   building, and the new Vision Northland hopital in Duluth
                   Minnesota. This includes associated sub systems such as steam,
-                  feed, condensate, makeup water, and donestic hot/cold water.
+                  feed, condensate, makeup water, and domestic hot/cold water.
                   Additionally, I am responsible for maintenance and operation
-                  of the low pressure boilers at four seperate Essentia Health
+                  of the low pressure boilers at four separate Essentia Health
                   buildings in the Duluth/Hermantown area.
                   <br />
                   <br />
@@ -174,23 +174,22 @@ export default function Home() {
                 </li>
 
                 <li>
-                  Aside from the normal dutys and responsibilites as a boiler
-                  operator my team is also responsible for making signs at all
+                  Aside from the normal duties and responsibilites as a boiler
+                  operator, my team is also responsible for making signs for all
                   Essentia Campuses. These campuses span over 30 cities between
-                  Minnesota and North Dakota. As a sign makes, we interface with
+                  Minnesota and North Dakota. As a sign makers, we interface with
                   Gravotech software to create the designs for the signs. We
                   then send the data from the desktop used for development to a
                   rotary sign machine. The sign machine must be initially
-                  calibrated on an x and y axis. Then, prior to each cut we must
-                  calibrate the z axis. We use differnt acrylic, aluminum, and
-                  platic sheets. Following engraving, all signs must then be
+                  calibrated on an x and y axis. Then prior to each cut, we must
+                  calibrate the z axis. We use different acrylic, aluminum, and
+                  plastic sheets. Following engraving, all signs must then be
                   painted and assembled prior to shipping.
                   <br />
                   <br />
                 </li>
                 <li>
-                  In additon to these normal dutys and responsibilites, I also
-                  have access to to the alarms and programming for the hospital
+                  I also have access to to the alarms and programming for the hospital
                   {`'`}s building automation system. Distech is the back end
                   program utilized for programming all the HVAC, lighting, and
                   alarm systems for the hospital. Niagara is the front end
@@ -210,7 +209,7 @@ export default function Home() {
               open=""
             >
               <summary
-                className="job-header callout"
+                className="job-header"
                 aria-labelledby="job-header-Sprung-Services"
               >
                 <h3 className="inline" id="job-header-Sprung-Services">
@@ -225,18 +224,11 @@ export default function Home() {
                 </p>
               </summary>
 
-              <ul className="job-history">
-                <li>
-                  <span className="dates">December 2020–Present</span>:{" "}
-                  <strong>Relief Boiler Operator</strong>
-                </li>
-              </ul>
-
               <ul className="job-description">
                 <li>
-                  Received my Minnesota 1st class {`'A'`} boilers license
+                  obtained my Minnesota 1st class {`'A'`} boilers license
                   allowing me to operate high- and low-pressure boilers with
-                  associated engines and turbines of any horsepower. In addition
+                  associated engines and turbines of any horsepower.
                   I can personally be in charge of boilers up to 500 horsepower.
                   <br />
                   <br />
@@ -294,11 +286,11 @@ export default function Home() {
 
               <ul className="job-description">
                 <li>
-                  Part time job I worked while attendng school in person at UND.
-                  The job responsibilies included shipping and receiving goods
-                  to include washers, dryers, refrigerators, television,
+                  This was a part time job I worked while attending school in person at UND.
+                  The job responsibilities included shipping and receiving goods
+                  to include washers, dryers, refrigerators, televisions,
                   computers, laptops, monitors, and a plethora of other tech
-                  products. As well as ensuring the sales floor was porperly
+                  products. I also ensured the sales floor was porperly
                   stocked at all times.
                   <br />
                   <br />
@@ -306,14 +298,14 @@ export default function Home() {
 
                 <li>
                   In addition to product flow, I also worked customer service
-                  when need arose. Requiring the prioritization of empathy in
+                  when the need arose. This required the prioritization of empathy in
                   helping customers manage whatever needs they may have while
                   shopping with us at Best Buy.
                   <br />
                   <br />
                 </li>
                 <li>
-                  Also obtained experience working at the Geek Squad precinct.
+                  I also obtained experience working at the Geek Squad precinct.
                   At the precinct, we would assist customers in troubleshooting
                   and repair of desktops, laptops, TVs, phones, and tablets.
                   <br />
@@ -348,7 +340,7 @@ export default function Home() {
                   received a secret security clearance and filled positions as
                   operator and maintenance technician. While onboard I qualified
                   chief reactor watch, a senior supervisory watch station in the
-                  reactor room. Skilled with the operation and maintenance of
+                  reactor room. I obtained skills with the operation and maintenance of
                   mechanical systems to include primary coolant systems, reactor
                   safeguard systems, steam plant systems, hydraulic plant
                   systems, high and low-pressure air, sea and fresh water, and
@@ -365,12 +357,12 @@ export default function Home() {
                 </li>
 
                 <li>
-                  Routinely perform maintenance on all propulsion related
-                  nuclear and non-nuclear mechanical systems. Including
+                  Routinely performed maintenance on all propulsion related
+                  nuclear and non-nuclear mechanical systems. This included
                   preventative maintenance items requiring complete disassembly,
                   greasing, and reassembly of a 4160-volt turbine attached lube
                   oil pump. complete disassembly, cleaning, and reassembly of
-                  our plants Delaval lube oil purifier. As well as participating
+                  our plants Delaval lube oil purifier. I also as participated
                   in semi-annual reactor fill testing, ensuring proper
                   operations of the reactor safeguard system.
                   <br />
@@ -381,7 +373,7 @@ export default function Home() {
                   While in the shipyard, I was a member of the work controls
                   team. Our responsibility was to verify all shipyard
                   maintenance documents and ensure their accuracy with our
-                  current shipboard rules and regulations. As well, we were
+                  current shipboard rules and regulations. We were also
                   responsible for verifying all on ship{`'`}s company
                   maintenance for reactor mechanical division to ensure that
                   workstations/controls weren{`’`}t overlapping between reactor
@@ -432,7 +424,7 @@ export default function Home() {
           </section>
 
           <section role="list" aria-labelledby="education-header">
-            <h2 id="education-header">Education and training</h2>
+            <h2 id="education-header">Education and Training</h2>
 
             <div
               role="listitem"
@@ -443,12 +435,11 @@ export default function Home() {
               </h3>
               <ul className="degrees">
                 <li>
-                  <strong>(in progress)</strong>, Working on my B.A. degree in
-                  General Studies with a minor in computer science (Graduating
-                  in May of 2023).{" "}
+                  <strong>(Anticipated graduation; May of 2023)</strong>, Bachelor of Arts 
+                  degree in General Studies with a Minor in Computer Science.{" "}
                   <strong>
-                    (As a prior Mechanical Engineering major, the majority of my
-                    classes have been in math and science)
+                    (With my previous Naval nuclear power training and Mechanical Engineering 
+                    course work, the majority of my formal education has been in math and science)
                   </strong>
                 </li>
               </ul>
@@ -461,7 +452,7 @@ export default function Home() {
               <h3 id="school-header-century-college">Centruy College</h3>
               <ul className="degrees">
                 <li>
-                  <strong>A.A Degree</strong>, Dean{`'`}s list (2021)
+                  <strong>Associate of Arts Degree</strong>, Dean{`'`}s list (2021)
                 </li>
               </ul>
             </div>
@@ -561,7 +552,7 @@ export default function Home() {
           <h2 id="about-header">About This Resume</h2>
           <Image src="/Chris.jpg" width="500" height="700"></Image>
           <p>
-            Shout out to Elizabeth Jorgensen who laid the initial framework for
+            Thank you to Elizabeth Jorgensen who laid the initial framework for
             this portfolio. In addition, a special thanks to Jeffrey Mendez
             (a11ywatch) in helping me develop/navigate some of the more
             technical hang ups with this portfolio. This is a next.js project. A
@@ -571,7 +562,7 @@ export default function Home() {
             This is a portfolio project and this resume is public on GitHub.
           </p>
           <p>
-            A quick bit about myself. I spent 6 years in naval nuclear power and
+            I spent six years in naval nuclear power and
             it was an honor to be able to serve my country and learn a valuable
             trade at the same time. However, nuclear power was never something I
             was passionate about. While studying mechanical engineering at the
