@@ -22,7 +22,8 @@ export default function Home() {
             <br />
             Self-motivated, reliable, and punctual
             <br />
-            Current Licensure: 1st class A Boiler Engineer
+            <br />
+            <strong>Current Licensure:</strong> 1st class A Boiler Engineer
           </p>
         </div>
 
