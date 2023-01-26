@@ -21,6 +21,8 @@ export default function Home() {
             Science at the University of North Dakota.
             <br />
             Self-motivated, reliable, and punctual
+            <br />
+            Current Licensure: 1st class A Boiler Engineer
           </p>
         </div>
 
@@ -141,7 +143,7 @@ export default function Home() {
                 className="job-header callout"
                 aria-labelledby="job-header-Essentia-Health"
               >
-                <h3 className="inline" id="jjob-header-Essentia-Health">
+                <h3 className="inline" id="job-header-Essentia-Health">
                   Essentia Health
                 </h3>
                 , Duluth, MN<strong> — Boiler Operator</strong>
@@ -226,7 +228,7 @@ export default function Home() {
 
               <ul className="job-description">
                 <li>
-                  obtained my Minnesota 1st class {`'A'`} boilers license
+                  Obtained my Minnesota 1st class {`'A'`} boilers license
                   allowing me to operate high- and low-pressure boilers with
                   associated engines and turbines of any horsepower.
                   I can personally be in charge of boilers up to 500 horsepower.
