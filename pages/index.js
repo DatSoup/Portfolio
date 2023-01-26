@@ -153,9 +153,9 @@ export default function Home() {
 
               <ul className="job-description">
                 <li>
-                  My primary role is to maintain and operate high presssure
+                  My primary role is to maintain and operate high pressure
                   boilers located at St. Mary{`'`}s hospital, 1st street clinic
-                  building, and the new Vision Northland hopital in Duluth
+                  building, and the new Vision Northland hospital in Duluth
                   Minnesota. This includes associated sub systems such as steam,
                   feed, condensate, makeup water, and domestic hot/cold water.
                   Additionally, I am responsible for maintenance and operation
@@ -177,7 +177,7 @@ export default function Home() {
                 </li>
 
                 <li>
-                  Aside from the normal duties and responsibilites as a boiler
+                  Aside from the normal duties and responsibilities as a boiler
                   operator, my team is also responsible for making signs for all
                   Essentia Campuses. These campuses span over 30 cities between
                   Minnesota and North Dakota. As a sign makers, we interface with
@@ -192,7 +192,7 @@ export default function Home() {
                   <br />
                 </li>
                 <li>
-                  I also have access to to the alarms and programming for the hospital
+                  I also have access to the alarms and programming for the hospital
                   {`'`}s building automation system. Distech is the back end
                   program utilized for programming all the HVAC, lighting, and
                   alarm systems for the hospital. Niagara is the front end
