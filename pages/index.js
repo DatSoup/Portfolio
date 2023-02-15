@@ -6,8 +6,10 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <>
+      <html lang="en"></html>
       <Head>
         <meta name="description" content="Navy vet studying computer science" />
+        <title>Christopher Campbell Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
         <AppHead />
       </Head>
@@ -132,7 +134,9 @@ export default function Home() {
       <div id="content">
         <main>
           <section role="list" aria-labelledby="experience-header">
-            <h2 id="experience-header">Experience (click drop down arrows for further details)</h2>
+            <h2 id="experience-header">
+              Experience <em>(click drop down arrows for further details)</em>
+            </h2>
 
             <details
               className="job"
@@ -153,52 +157,56 @@ export default function Home() {
 
               <ul className="job-description">
                 <li>
-                  My primary role is to maintain and operate high pressure
-                  boilers located at St. Mary{`'`}s hospital, 1st street clinic
-                  building, and the new Vision Northland hospital in Duluth
-                  Minnesota. This includes associated sub systems such as steam,
-                  feed, condensate, makeup water, and domestic hot/cold water.
-                  Additionally, I am responsible for maintenance and operation
-                  of the low pressure boilers at four separate Essentia Health
-                  buildings in the Duluth/Hermantown area.
+                  Maintain and operate high pressure boilers at multiples
+                  Essentia health buildings, including, St. Mary{`'`}s hospital,
+                  1st street clinic building, and the new Vision Northland
+                  hospital in Duluth Minnesota. This includes associated sub
+                  systems such as steam, feed, condensate, makeup water, and
+                  domestic hot/cold water.
                   <br />
                   <br />
                 </li>
 
                 <li>
-                  I am also responsible for daily water testing of all eight
-                  high pressure boilers on these Duluth campuses. These water
-                  tests include total dissolved solids (TDS), P and M
-                  alkalinity, polymer, and sulfites. Ensuring boiler chemistry
-                  is properly balanced is of utmost importance to prevent any
-                  sort of damage to the water-tube side of the boiler.
+                  Conduct daily water tests on all eight high pressure boilers
+                  on the Duluth campuses, analyzing total dissolved solids
+                  (TDS), P and M alkalinity, polymer, and sulfites. Expertly
+                  balance boiler chemistry to prevent damage to water tube side,
+                  ensuring optimal performance.
                   <br />
                   <br />
                 </li>
 
                 <li>
-                  Aside from the normal duties and responsibilities as a boiler
-                  operator, my team is also responsible for making signs for all
-                  Essentia Campuses. These campuses span over 30 cities between
-                  Minnesota and North Dakota. As a sign makers, we interface with
-                  Gravotech software to create the designs for the signs. We
-                  then send the data from the desktop used for development to a
-                  rotary sign machine. The sign machine must be initially
-                  calibrated on an x and y axis. Then prior to each cut, we must
-                  calibrate the z axis. We use different acrylic, aluminum, and
-                  plastic sheets. Following engraving, all signs must then be
-                  painted and assembled prior to shipping.
+                  Respond to phone calls for hospital maintenance requests,
+                  prioritizing issues and dispatching appropriate personnel to
+                  resolve urgent matters. Effectively balance the importance of
+                  the issue and available resources to ensure prompt and
+                  efficient service.
                   <br />
                   <br />
                 </li>
                 <li>
-                  I also have access to the alarms and programming for the hospital
-                  {`'`}s building automation system. Distech is the back end
-                  program utilized for programming all the HVAC, lighting, and
-                  alarm systems for the hospital. Niagara is the front end
-                  program, which is primarily what I interface with, for
-                  monitoring of alarms and remote operation of air handlers,
-                  pumps, and solenoid valves throughout the hospitals.
+                  Collaborate with a team to design, manufacture, and assemble
+                  signs for all Essentia campuses spanning over 30 cities in
+                  Minnesota and North Dakota.
+                  <br />
+                  <br />
+                </li>
+                <li>
+                  Utilize Gravotech software to create designs and send the data
+                  from the desktop to a rotary engraving machine, calibrating
+                  the machine on the x, y, and z axes. Work with acrylic,
+                  aluminum, and plastic sheets to engrave and paint signs,
+                  ensuring precise and professional results.
+                  <br />
+                  <br />
+                </li>
+                <li>
+                  Manage the alarms and programming for the building automation
+                  system across multiple hospitals, utilizing Niagara for
+                  monitoring and adjusting remote operation of air-handlers,
+                  pumps, and solenoids.
                   <br />
                   <br />
                 </li>
@@ -231,8 +239,8 @@ export default function Home() {
                 <li>
                   Obtained my Minnesota 1st class {`'A'`} boilers license
                   allowing me to operate high- and low-pressure boilers with
-                  associated engines and turbines of any horsepower.
-                  I can personally be in charge of boilers up to 500 horsepower.
+                  associated engines and turbines of any horsepower. I can
+                  personally be in charge of boilers up to 500 horsepower.
                   <br />
                   <br />
                 </li>
@@ -289,21 +297,21 @@ export default function Home() {
 
               <ul className="job-description">
                 <li>
-                  This was a part time job I worked while attending school in person at UND.
-                  The job responsibilities included shipping and receiving goods
-                  to include washers, dryers, refrigerators, televisions,
-                  computers, laptops, monitors, and a plethora of other tech
-                  products. I also ensured the sales floor was porperly
-                  stocked at all times.
+                  This was a part time job I worked while attending school in
+                  person at UND. The job responsibilities included shipping and
+                  receiving goods to include washers, dryers, refrigerators,
+                  televisions, computers, laptops, monitors, and a plethora of
+                  other tech products. I also ensured the sales floor was
+                  porperly stocked at all times.
                   <br />
                   <br />
                 </li>
 
                 <li>
                   In addition to product flow, I also worked customer service
-                  when the need arose. This required the prioritization of empathy in
-                  helping customers manage whatever needs they may have while
-                  shopping with us at Best Buy.
+                  when the need arose. This required the prioritization of
+                  empathy in helping customers manage whatever needs they may
+                  have while shopping with us at Best Buy.
                   <br />
                   <br />
                 </li>
@@ -343,11 +351,11 @@ export default function Home() {
                   received a secret security clearance and filled positions as
                   operator and maintenance technician. While onboard I qualified
                   chief reactor watch, a senior supervisory watch station in the
-                  reactor room. I obtained skills with the operation and maintenance of
-                  mechanical systems to include primary coolant systems, reactor
-                  safeguard systems, steam plant systems, hydraulic plant
-                  systems, high and low-pressure air, sea and fresh water, and
-                  piping/electrical system diagrams.
+                  reactor room. I obtained skills with the operation and
+                  maintenance of mechanical systems to include primary coolant
+                  systems, reactor safeguard systems, steam plant systems,
+                  hydraulic plant systems, high and low-pressure air, sea and
+                  fresh water, and piping/electrical system diagrams.
                   <br />
                   <br />
                 </li>
@@ -438,11 +446,13 @@ export default function Home() {
               </h3>
               <ul className="degrees">
                 <li>
-                  <strong>(Anticipated graduation; May of 2023)</strong>, Bachelor of Arts 
-                  degree in General Studies with a Minor in Computer Science.{" "}
+                  <strong>(Anticipated graduation; May of 2023)</strong>,
+                  Bachelor of Arts degree in General Studies with a Minor in
+                  Computer Science.{" "}
                   <strong>
-                    (With my previous Naval nuclear power training and Mechanical Engineering 
-                    course work, the majority of my formal education has been in math and science)
+                    (With my previous Naval nuclear power training and
+                    Mechanical Engineering course work, the majority of my
+                    formal education has been in math and science)
                   </strong>
                 </li>
               </ul>
@@ -455,7 +465,8 @@ export default function Home() {
               <h3 id="school-header-century-college">Centruy College</h3>
               <ul className="degrees">
                 <li>
-                  <strong>Associate of Arts Degree</strong>, Dean{`'`}s list (2021)
+                  <strong>Associate of Arts Degree</strong>, Dean{`'`}s list
+                  (2021)
                 </li>
               </ul>
             </div>
@@ -553,7 +564,12 @@ export default function Home() {
         <hr />
         <article aria-labelledby="about-header" className={styles.articleAbout}>
           <h2 id="about-header">About This Resume</h2>
-          <Image src="/Chris.jpg" width="500" height="700"></Image>
+          <img
+            src="Chris Campbell-modified.png"
+            width="200"
+            height="200"
+            alt="me.jpg"
+          ></img>
           <p>
             Thank you to Elizabeth Jorgensen who laid the initial framework for
             this portfolio. In addition, a special thanks to Jeffrey Mendez
@@ -565,13 +581,13 @@ export default function Home() {
             This is a portfolio project and this resume is public on GitHub.
           </p>
           <p>
-            I spent six years in naval nuclear power and
-            it was an honor to be able to serve my country and learn a valuable
-            trade at the same time. However, nuclear power was never something I
-            was passionate about. While studying mechanical engineering at the
-            University of North Dakota, I was reminded of my love for computers
-            and programming during a computer application in engineering course.
-            In this course we learned how to code using C++. Although this class
+            I spent six years in naval nuclear power and it was an honor to be
+            able to serve my country and learn a valuable trade at the same
+            time. However, nuclear power was never something I was passionate
+            about. While studying mechanical engineering at the University of
+            North Dakota, I was reminded of my love for computers and
+            programming during a computer application in engineering course. In
+            this course we learned how to code using C++. Although this class
             was not simple, it reawakened a passion within myself. I am now
             excited and engaged on this new life path of computer science.
           </p>
