@@ -15,12 +15,6 @@ export default function Home() {
       </Head>
 
       <header>
-        <img
-          src="Chris Campbell-modified.png"
-          width="200"
-          height="200"
-          alt="me.jpg"
-        ></img>
         <div id="intro">
           <h1>Christopher Campbell</h1>
           <p className="statement" aria-label="Positioning Statement">
