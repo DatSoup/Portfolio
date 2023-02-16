@@ -15,12 +15,17 @@ export default function Home() {
       </Head>
 
       <header>
+        <img
+          src="Chris Campbell-modified.png"
+          width="200"
+          height="200"
+          alt="me.jpg"
+        ></img>
         <div id="intro">
           <h1>Christopher Campbell</h1>
           <p className="statement" aria-label="Positioning Statement">
-            United States Navy Veteran. Studying Computer
-            <br />
-            Science at the University of North Dakota.
+            United States Navy Veteran. <br />
+            Studying Computer Science
             <br />
             Self-motivated, reliable, and punctual
             <br />
@@ -564,18 +569,11 @@ export default function Home() {
         <hr />
         <article aria-labelledby="about-header" className={styles.articleAbout}>
           <h2 id="about-header">About This Resume</h2>
-          <img
-            src="Chris Campbell-modified.png"
-            width="200"
-            height="200"
-            alt="me.jpg"
-          ></img>
           <p>
-            Thank you to Elizabeth Jorgensen who laid the initial framework for
-            this portfolio. In addition, a special thanks to Jeffrey Mendez
-            (a11ywatch) in helping me develop/navigate some of the more
-            technical hang ups with this portfolio. This is a next.js project. A
-            next.js webserver running on Vercel generates this resume.
+            Special thanks to Jeffrey Mendez (a11ywatch) in helping me
+            develop/navigate some of the more technical hang ups with this
+            portfolio. This is a next.js project. A next.js webserver running on
+            Vercel generates this resume.
           </p>
           <p>
             This is a portfolio project and this resume is public on GitHub.
