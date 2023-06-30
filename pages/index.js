@@ -19,11 +19,17 @@ export default function Home() {
           <h1>Christopher Campbell</h1>
           <p className="statement" aria-label="Positioning Statement">
             United States Navy Veteran. <br />
-            Studying Computer Science
+            Studying Cybersecurity
             <br />
             Self-motivated, reliable, and punctual
             <br />
             <br />
+            <strong>Current Certificate:</strong> Google Cybersecurity Career
+            Certificate
+            <br></br>
+            <strong>Future Certificate:</strong> Taking Comptia Sec+ in August
+            2023
+            <br></br>
             <strong>Current Licensure:</strong> 1st class A Boiler Engineer
           </p>
         </div>
@@ -97,7 +103,7 @@ export default function Home() {
               className="contact-info"
               aria-describedby="contact-label-address"
             >
-              <strong>2120 London Rd, Apt 205</strong>
+              <strong>1818 E 7th St.</strong>
               <br />
               <strong>Duluth, MN 55812</strong>
             </div>
@@ -133,9 +139,10 @@ export default function Home() {
       <div id="content">
         <main>
           <section role="list" aria-labelledby="experience-header">
-            <h2 id="experience-header">
-              Experience <em>(click drop down arrows for further details)</em>
-            </h2>
+            <h2 id="experience-header">Experience</h2>
+            <a>
+              <em>(click drop down arrows for further details)</em>
+            </a>
 
             <details
               className="job"
@@ -445,9 +452,25 @@ export default function Home() {
               </h3>
               <ul className="degrees">
                 <li>
-                  <strong>(Anticipated graduation; May of 2023)</strong>,
-                  Bachelor of Arts degree in General Studies with a Minor in
-                  Computer Science.{" "}
+                  <strong>
+                    Masters Degree (Estimated graduation Summer 2025)
+                  </strong>
+                  <br></br>I will be starting this program in the Fall of 2023.{" "}
+                </li>
+              </ul>
+            </div>
+
+            <div
+              role="listitem"
+              aria-labelledby="school-header-university-of-north-dakota"
+            >
+              <h3 id="school-header-university-of-north-dakota">
+                University of North Dakota
+              </h3>
+              <ul className="degrees">
+                <li>
+                  <strong>Bachelor's Degree</strong>, Bachelor of Arts degree in
+                  General Studies with a Minor in Computer Science. <br></br>
                   <strong>
                     (With my previous Naval nuclear power training and
                     Mechanical Engineering course work, the majority of my
