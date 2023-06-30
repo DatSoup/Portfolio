@@ -469,7 +469,7 @@ export default function Home() {
               </h3>
               <ul className="degrees">
                 <li>
-                  <strong>Bachelor's Degree</strong>, Bachelor of Arts degree in
+                  <strong>Bachelors Degree</strong>, Bachelor of Arts degree in
                   General Studies with a Minor in Computer Science. <br></br>
                   <strong>
                     (With my previous Naval nuclear power training and
